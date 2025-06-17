@@ -4,8 +4,8 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import Card from './components/Card';
 import Product from './components/Product';
-import Login from './components/Login';
-import AddSeller from './components/AddSeller';
+import Login from './components/login';
+import AddSeller from './components/addSeller';
 
 const App = () => {
   return (
