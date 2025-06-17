@@ -11,7 +11,34 @@ const AddSeller = () => {
           <input
             type="text"
             className="w-full p-2 border rounded mb-4"
-            placeholder="Enter seller name"
+            placeholder="e.g. abc traders"
+          />
+          <label className="block mb-2 text-sm font-medium">Email</label>
+          <input
+            type="email"
+            className="w-full p-2 border rounded mb-4"
+            placeholder="e.g. abc@gmail.com"
+          />
+
+          <label className="block mb-2 text-sm font-medium">Shop Name</label>
+          <input
+            type="text"
+            className="w-full p-2 border rounded mb-4"
+            placeholder="e.g. rahul kirana store"
+          />
+
+          <label className="block mb-2 text-sm font-medium">Phone Number</label>
+          <input
+            type="text"
+            className="w-full p-2 border rounded mb-4"
+            placeholder="91+ 2356897412"
+          />
+
+          <label className="block mb-2 text-sm font-medium">Shope Address</label>
+          <input
+            type="text"
+            className="w-full p-2 border rounded mb-4"
+            placeholder="City, Street, Pincode"
           />
 
           <button
