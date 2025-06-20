@@ -3,9 +3,9 @@ import Card from "./Card";
 
 const Product = () => {
   return (
-    <div className="p-6">
+    <div className="px-2 py-6 sm:px-4">
       <h1 className="text-2xl font-bold text-center mb-4">Product</h1>
-      <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center items-stretch">
         <Card
           imageUrl="https://www.summahealth.org/-/media/project/summahealth/website/page-content/flourish/2_18a_fl_fastfood_400x400.webp?la=en&h=400&w=400&hash=145DC0CF6234A159261389F18A36742A"
           dishName="burger"
@@ -30,7 +30,7 @@ const Product = () => {
           hotelName="Smosa Corner"
           buttonText="check out"
         />
-    </div>
+      </div>
     </div>
   );
 };
