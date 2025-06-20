@@ -44,6 +44,11 @@ const AddSeller = () => {
           <button
             type="submit"
             className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              alert("Seller added successfully!");
+              } 
+            }
           >
             Add Seller
           </button>
