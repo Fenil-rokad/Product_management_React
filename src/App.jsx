@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import Card from './components/Card';
-import Product from './components/product';
-import Login from './components/login';
-import AddSeller from './components/addSeller';
+import Nav from './Nav';
+import Home from './home';
+import Card from './Card';
+import Product from './product';
+import Login from './login';
+import AddSeller from './addSeller';
 
 const App = () => {
   return (
